@@ -2,7 +2,4 @@
 #include <limits.h>
 #include <stdbool.h>
 
-int main(){
-    
-    return 0;
-}
+int strcmp_ic( const char *str1, const char *str2 );
