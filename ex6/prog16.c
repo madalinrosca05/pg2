@@ -43,8 +43,8 @@ int main(int argc, char *argv[]){ //para compilar, façam ./prog16 1 ""
 
     //receção e processamento das entradas e verificações
 
-    if (argc != 3){fatal_error("número de argumentos inválido, use 3 argumentos da seguinte forma:
-                                ./prog16 posição_do_campo string_a_procurar < ficheiro.txt");}
+    if (argc != 3){
+        fatal_error("número de argumentos inválido, use 3 argumentos da seguinte forma: ./prog16 posição_do_campo string_a_procurar < ficheiro.txt");}
     int pos_campo = (int)strtoul(argv[1], NULL, 10);
     if (pos_campo <= 0){fatal_error("posição do campo impossível, insira número maior ou igual a 1");}
 
