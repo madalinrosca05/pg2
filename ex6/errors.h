@@ -1,6 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include "errors.h"
-
+#ifndef ERRORS_H 
+#define ERRORS_H
 
 void fatal_error(const char *errorMsg);
+
+#endif

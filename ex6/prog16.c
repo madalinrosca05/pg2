@@ -65,7 +65,7 @@ int main(int argc, char *argv[]){ //para compilar, façam ./prog16 1 ""
         strcpy(copia, linha);
 
         char *campo = NULL;
-        char *atual = strtok(copia, " \n");
+        char *atual = strtok(copia, ";\n");
         int count = 1;
 
         //colocar no campo pedido
